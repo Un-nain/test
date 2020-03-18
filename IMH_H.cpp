@@ -15,6 +15,6 @@ IHM::IHM(QWidget *parent) : QMainWindow(parent){
     mainWidget->setLayout(mainLayout);
     this->setCentralWidget(mainWidget);
 
-    connect(slider1, SIGNAL(signalValueChanged(int)), this, SLOT(slotSetValue(int)));
+    //connect(slider1, SIGNAL(signalValueChanged(int)), this, SLOT(slotSetValue(int)));
 
 }

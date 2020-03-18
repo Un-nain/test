@@ -18,15 +18,12 @@ Q_OBJECT
 public:
     IHM(QWidget* parent = nullptr);
 
-public slots:
-    void slotSetValue(int value);
-signals:
-    void signalValueChanged(int value);
 private:
     QProgressBar* progressBar1;
     QSlider* slider1;
-    int value;
+    int value=5;
 };
+
 
 
 #endif //UNTITLED_IHM_H_H
